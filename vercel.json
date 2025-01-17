@@ -2,7 +2,7 @@
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
   "functions": {
     "api/database.js": {
-      "runtime": "vercel-node@16.0.0"
+      "runtime": "nodejs18.x"
     }
   }
 }
